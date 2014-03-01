@@ -1,0 +1,8 @@
+# credits: CyanogenMod
+
+BASEDIR=`dirname $0`
+
+mkdir -p $BASEDIR/proprietary
+
+# Get Goo.im (I use a prebuilt so it can update from the Market)
+curl -L -o $BASEDIR/proprietary/GooManager.apk -O -L http://goo.im/devs/s0updev/goomanager//GooManager_2.1.3.apk
