@@ -1,6 +1,6 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=djolivier \
-    ro.goo.rom=omni_djolivier \
+    ro.goo.rom=liquid_olivier \
     ro.goo.version=$(shell date +%s)
     
 PRODUCT_COPY_FILES += \
